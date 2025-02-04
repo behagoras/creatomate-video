@@ -2,12 +2,17 @@ require('dotenv').config();
 const fs = require("fs");
 const { Client } = require('creatomate');
 
+const {buildTemplate} = require('./templates/buildTemplate.cjs');
+
 const apiKey = process.env.API_KEY;
 
-
-const TEMPLATE_JSON = fs.readFileSync(__dirname + "/templates/template2.json", "utf8");
-
-const finalTemplate = JSON.parse(TEMPLATE_JSON);
+const finalTemplate = buildTemplate({
+  introductionLength: 10,
+  questionLength: 20,
+  answersLength: 24,
+  winnerLength: 20,
+  winnerOption: "C"
+})
 
 const client = new Client(apiKey);
 
