@@ -1,0 +1,16 @@
+{
+  "name": "creatomate-video",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "creatomate": "^1.2.1",
+    "dotenv": "^16.4.7"
+  }
+}

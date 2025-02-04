@@ -1,0 +1,493 @@
+{
+  "output_format": "mp4",
+  "width": 720,
+  "height": 1280,
+  "frame_rate": "60 fps",
+  "duration": 60,
+  "snapshot_time": 3.5,
+  "elements": [
+    {
+      "id": "Background",
+      "name": "Background",
+      "type": "image",
+      "track": 1,
+      "time": 0,
+      "source": "de7a0079-1b65-42e4-a4ec-05bcfc5b4f3e",
+      "animations": [
+        {
+          "time": 0,
+          "duration": 0.5,
+          "type": "scale",
+          "end_scale": "100%",
+          "start_scale": "150%"
+        }
+      ]
+    },
+    {
+      "id": "Composition-1",
+      "name": "Scene-1",
+      "type": "composition",
+      "track": 2,
+      "time": 4.7433,
+      "duration": 50.4004,
+      "elements": [
+        {
+          "id": "AnswersGroup",
+          "name": "QuestionGroup",
+          "type": "composition",
+          "track": 1,
+          "time": 0.65,
+          "elements": [
+            {
+              "id": "a6c02111-62f2-44a5-844e-463d80731e59",
+              "name": "question_background",
+              "type": "shape",
+              "track": 1,
+              "y": "21.7982%",
+              "width": "90%",
+              "height": "33.5965%",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+              "fill_color": "#ffd600",
+              "stroke_color": "#000000",
+              "stroke_width": "1.4 vmin",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 0.5,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 0.547,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            },
+            {
+              "id": "Question-Text",
+              "name": "question_text",
+              "type": "text",
+              "track": 2,
+              "y": "21.5789%",
+              "width": "84%",
+              "height": "33.1579%",
+              "x_alignment": "50%",
+              "y_alignment": "50%",
+              "text": "¿A cuántos metros sobre el nivel del mar se encuentra oficialmente el Nevado de Colima, uno de los volcanes más importantes de México, según el INEGI?",
+              "font_family": "Montserrat",
+              "font_weight": "600",
+              "font_size": "4.5 vmin",
+              "line_height": "110%",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 0.5,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QuestionGroup",
+      "name": "AnswersGroup",
+      "type": "composition",
+      "track": 5,
+      "time": 16,
+      "duration": 39,
+      "elements": [
+        {
+          "id": "AnswerDGroup",
+          "name": "AnswerDGroup",
+          "type": "composition",
+          "track": 1,
+          "time": 0.99,
+          "duration": 23.01,
+          "elements": [
+            {
+              "id": "OptionD-Box",
+              "name": "answer_4_background",
+              "type": "shape",
+              "track": 1,
+              "y": "75%",
+              "width": "70%",
+              "height": "8%",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+              "fill_color": "#ec9f39",
+              "stroke_color": "#000000",
+              "stroke_width": "1.4 vmin",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            },
+            {
+              "id": "OptionD-Text",
+              "name": "answer_4_text",
+              "type": "text",
+              "track": 2,
+              "y": "75%",
+              "width": "70%",
+              "height": "8%",
+              "x_alignment": "50%",
+              "y_alignment": "50%",
+              "text": "D) 4,650 m",
+              "font_family": "Montserrat",
+              "font_weight": "600",
+              "font_size": "5 vmin",
+              "line_height": "100%",
+              "fill_color": "#ffffff",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AnswerCGroup",
+          "name": "AnswerCGroup",
+          "type": "composition",
+          "track": 2,
+          "time": 0.66,
+          "duration": 23.34,
+          "elements": [
+            {
+              "id": "OptionC-Box",
+              "name": "answer_3_background",
+              "type": "shape",
+              "track": 1,
+              "y": "65%",
+              "width": "70%",
+              "height": "8%",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+              "fill_color": "#ec9f39",
+              "stroke_color": "#000000",
+              "stroke_width": "1.4 vmin",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            },
+            {
+              "id": "OptionC-Text",
+              "name": "answer_3_text",
+              "type": "text",
+              "track": 2,
+              "y": "65%",
+              "width": "70%",
+              "height": "8%",
+              "x_alignment": "50%",
+              "y_alignment": "50%",
+              "text": "C) 4,280 m",
+              "font_family": "Montserrat",
+              "font_weight": "600",
+              "font_size": "5 vmin",
+              "line_height": "100%",
+              "fill_color": "#ffffff",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AnswerBGroup",
+          "name": "AnswerBGroup",
+          "type": "composition",
+          "track": 3,
+          "time": 0.33,
+          "duration": 43.8081,
+          "elements": [
+            {
+              "id": "OptionB-Box",
+              "name": "answer_2_background",
+              "type": "shape",
+              "track": 1,
+              "y": "55%",
+              "width": "70%",
+              "height": "8%",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+              "fill_color": "#ec9f39",
+              "stroke_color": "#000000",
+              "stroke_width": "1.4 vmin",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            },
+            {
+              "id": "OptionB-Text",
+              "name": "answer_2_text",
+              "type": "text",
+              "track": 2,
+              "y": "55%",
+              "width": "70%",
+              "height": "8%",
+              "x_alignment": "50%",
+              "y_alignment": "50%",
+              "text": "B) 4,460 m",
+              "font_family": "Montserrat",
+              "font_weight": "600",
+              "font_size": "5 vmin",
+              "line_height": "100%",
+              "fill_color": "#ffffff",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AnswerAGroup",
+          "name": "AnswerAGroup",
+          "type": "composition",
+          "track": 4,
+          "time": 0,
+          "duration": 24,
+          "elements": [
+            {
+              "id": "OptionA-Box",
+              "name": "answer_1_background",
+              "type": "shape",
+              "track": 1,
+              "y": "45%",
+              "width": "70%",
+              "height": "8%",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+              "fill_color": "#ec9f39",
+              "stroke_color": "#000000",
+              "stroke_width": "1.4 vmin",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            },
+            {
+              "id": "OptionA-Text",
+              "name": "answer_1_text",
+              "type": "text",
+              "track": 2,
+              "y": "45%",
+              "width": "70%",
+              "height": "8%",
+              "x_alignment": "50%",
+              "y_alignment": "50%",
+              "text": "A) 4,300 m",
+              "font_family": "Montserrat",
+              "font_weight": "600",
+              "font_size": "5 vmin",
+              "line_height": "100%",
+              "fill_color": "#ffffff",
+              "opacity": [
+                {
+                  "time": 0,
+                  "value": "0%"
+                },
+                {
+                  "time": 1,
+                  "value": "100%"
+                }
+              ],
+              "animations": [
+                {
+                  "time": 0,
+                  "duration": 1,
+                  "type": "bounce",
+                  "frequency": "2 Hz"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Composition-4",
+      "name": "Scene-4",
+      "type": "composition",
+      "track": 6,
+      "time": 55,
+      "duration": 5.2556,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 0.5,
+          "type": "fade",
+          "fade": true
+        }
+      ],
+      "elements": [
+        {
+          "id": "Final-Text-Box",
+          "type": "shape",
+          "track": 1,
+          "width": "70%",
+          "height": "15%",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+          "fill_color": "#ffd600",
+          "stroke_color": "#000000",
+          "stroke_width": "1.4 vmin",
+          "animations": [
+            {
+              "time": 0.5,
+              "duration": 2,
+              "type": "bounce",
+              "frequency": "2 Hz"
+            }
+          ]
+        },
+        {
+          "id": "Final-Text",
+          "type": "text",
+          "track": 2,
+          "width": "70%",
+          "height": "15%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "text": "¡Lo lograste!",
+          "font_family": "Montserrat",
+          "font_weight": "600",
+          "font_size": "6 vmin",
+          "line_height": "110%",
+          "fill_color": "#ffffff",
+          "stroke_color": "#000000",
+          "stroke_width": "0.8 vmin",
+          "animations": [
+            {
+              "time": 0.5,
+              "duration": 2,
+              "type": "bounce",
+              "frequency": "2 Hz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafbd389-9eb1-458e-ab6e-d7428c1ad3a7",
+      "type": "audio",
+      "track": 7,
+      "source": "49556751-8e50-479c-8aea-fa1663f3e01a"
+    }
+  ]
+}
